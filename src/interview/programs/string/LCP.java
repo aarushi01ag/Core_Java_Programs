@@ -13,7 +13,7 @@ public class LCP {
 
     public static void main(String[] args){
         String lrs="";
-        String s="acbdfghybdf";
+        String s="acbbdfghybbdf";
         int n=s.length();
 
         for(int i=0;i<n;i++){

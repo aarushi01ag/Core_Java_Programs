@@ -27,7 +27,7 @@ public class CopyingArrayToAnotherArray {
         }
 
         System.out.println("\nprinting array2:-");
-        for(int i=0;i<array1.length;i++){
+        for(int i=0;i<array2.length;i++){
             System.out.print(array2[i] + " ");
 
            System.out.println(array2.getClass().getName());

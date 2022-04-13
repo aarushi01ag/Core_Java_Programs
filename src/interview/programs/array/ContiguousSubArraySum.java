@@ -1,10 +1,10 @@
 
 package interview.programs.array;
 
-public class NonContiguousSubArraySum {
+public class ContiguousSubArraySum {
     public static void main(String[] args){
-        int[] arr={42, 15, 12, 7, 6, 8};
-        int inputSum=26;
+        int[] arr={1, -2,-1, 0, -4, 1};
+        int inputSum=-2;
         int start=0;
         int sum=arr[0];
         for(int i=1;i<arr.length;i++){
@@ -15,7 +15,7 @@ public class NonContiguousSubArraySum {
             }
             if(sum==inputSum){
                 for(int j=start;j<=i;j++){
-                    System.out.println("contiguous sub array is: "+arr[j]+"and index is: "+j);
+                    System.out.println(" contiguous sub array is: "+arr[j]);
                 }
             }
         }

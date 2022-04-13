@@ -1,7 +1,11 @@
 package interview.programs.array;
 
 import java.util.Scanner;
-
+/*
+   *
+  * *
+ * * *
+ */
 public class Pattern2 {
     public static void main(String[] args){
         int rowCount=1;

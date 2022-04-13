@@ -12,15 +12,16 @@ public class InsertElementAtIndexInArray {
 
         int newValue = 5;
 
-        System.out.println("Original Array : "+ Arrays.toString(my_array));
+        System.out.println("Original Array : " + Arrays.toString(my_array));
 
-        for(int i=my_array.length-1; i > Index_position; i--){
+        for (int i = my_array.length - 1; i >= Index_position; i--) {
 
-            my_array[i] = my_array[i-1];
+            my_array[i] = my_array[i - 1];
+            System.out.println(Arrays.toString(my_array));
+        }
+        my_array[Index_position] = newValue;
 
-        }my_array[Index_position] = newValue;
-
-        System.out.println("New Array: "+Arrays.toString(my_array));
+        System.out.println("New Array: " + Arrays.toString(my_array));
 
 
     }

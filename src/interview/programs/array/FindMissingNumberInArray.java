@@ -3,7 +3,8 @@ package interview.programs.array;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
-
+//This method returns the element present at the top of the stack and then removes it.
+// Exceptions: The method throws EmptyStackException is thrown if the stack is empty.
 public class FindMissingNumberInArray {
     public static boolean isBalanced(String s) {
         Stack<Character> stack = new Stack<>();
@@ -16,6 +17,7 @@ public class FindMissingNumberInArray {
                     break;
                 case '}':
                     if (stack.empty() || !stack.pop().equals('{')) {
+
                         return false;
                     }
                     break;
@@ -33,6 +35,7 @@ public class FindMissingNumberInArray {
                     break;
             }
         }
+
         return stack.empty();
     }
 

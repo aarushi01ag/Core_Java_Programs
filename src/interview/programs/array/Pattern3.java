@@ -16,6 +16,7 @@ import java.util.Scanner;
 public class Pattern3 {
 public static void main(String[] args){
     Scanner ip=new Scanner(System.in);
+
     int noOfRows=ip.nextInt();
 
     int rowCount=1;
